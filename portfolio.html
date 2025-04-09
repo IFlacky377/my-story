@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя История</title>
+    <!-- Подключаем шрифты из Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .main-title {
+            font-family: 'Pacifico', cursive;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            color: #ff5733;
+            margin-top: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 48%;
+            transition: box-shadow 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .help-section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .help-section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .help-section p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .help-section a {
+            font-size: 1.2rem;
+            color: #ff5733;
+            text-decoration: none;
+        }
+        .help-section a:hover {
+            text-decoration: underline;
+        }
+
+        .donation-column {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .donation-column h3 {
+            font-size: 2rem;
+            color: #ff5733;
+            margin-bottom: 20px;
+        }
+
+        .donation-column p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .donation-column a {
+            font-size: 1.5rem;
+            color: #ff5733;
+            text-decoration: none;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .donation-column a:hover {
+            text-decoration: underline;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            header {
+                font-size: 2rem;
+            }
+            .card {
+                width: 100%;
+                padding: 15px;
+            }
+            .card h2 {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.6rem;
+            }
+            .card h2 {
+                font-size: 1.4rem;
+            }
+            .card p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Моя История
+    </header>
+
+    <div class="main-title">
+        Моя история или как началась моя взрослая жизнь
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>Как всё началось: столкновение с Приорой Рушана</h2>
+            <p>Началась вся эта история с обычного дня. Я ехал на своем стареньком Mercedes W210, который я получил от отца, а точнее — в счет алиментов. Мощный мотор, старенький, но любимый автомобиль. На перекрестке, на скорости около 60 км/ч, я не заметил, как влетел в Приору Рушана. Сам он был за рулем, и на тот момент я даже не понял, что случилось. Вроде как легкий удар, машина даже не пострадала сильно. Время остановилось на пару секунд, но это был только первый шаг в цепочке событий, которые последовали за этим.</p>
+        </div>
+
+        <div class="card">
+            <h2>Первая встреча с Рушаном и его отцом</h2>
+            <p>Рушан оказался довольно спокойным парнем. Он сказал, что не хочет вызывать полицию, что мы всё решим между собой. Мы договорились, что я заплачу за ущерб позже. Он даже сказал, что не нужно вовлекать ГАИ и оставаться на связи. Это звучало разумно, так как мне не хотелось, чтобы дело затягивалось. Однако прошло время, и ситуация начала выходить из-под контроля.</p>
+        </div>
+
+        <div class="card">
+            <h2>Приезд отца Рушана: Напряженная атмосфера</h2>
+            <p>Через пару недель, когда я еще не расплатился за ущерб, приехал его отец. Он был строгий, с твердой позицией и требовал, чтобы я решал вопрос немедленно. Отец Рушана был человеком, который не любит откладывать дела в долгий ящик. Мой отец встретил его в нашем дворе. Атмосфера была напряженная. Отец Рушана говорил, что если я не договорюсь с ним о деньгах или ремонте, он обратится к более серьезным методам.</p>
+        </div>
+
+        <div class="card">
+            <h2>Как я оказался под давлением: разговариваем с папой</h2>
+            <p>Когда отец Рушана ушел, мой папа начал разговаривать со мной более жестко. Он сказал, что мне пора начинать брать ответственность за свои поступки, а не полагаться на его помощь. Он рассказал, как чувствовал себя беспомощным, когда отец Рушана пришел к нему домой. Этот момент очень сильно меня зацепил.</p>
+        </div>
+
+        <div class="card">
+            <h2>Чувство вины и бесконечные разговоры</h2>
+            <p>Мой отец не мог понять, почему я так беспечно отношусь к ситуации. Он повторял, что мне нужно начать понимать последствия своих поступков, и что в будущем я должен быть более ответственным человеком. Он говорил, что меня не устроит работать на заводе, что мне не будут платить хорошие деньги, и что мне стоит учиться, а не просто бегать от проблем.</p>
+        </div>
+
+        <div class="card">
+            <h2>Долги и штрафы: Разговоры, которые не прекращаются</h2>
+            <p>Когда я думал, что ситуация успокоилась, мой отец добавил новые проблемы. Он напомнил мне про штрафы на 100 тысяч рублей за превышение скорости на моем Mercedes, а также про долг за ремонт машины моего одноклассника, в которую я врезался пару месяцев назад. На тот момент мне казалось, что вся жизнь превратилась в постоянные счета и обязательства, и я не знал, как с этим справиться.</p>
+        </div>
+
+        <div class="card">
+            <h2>Как мне выбраться из этого?</h2>
+            <p>Мой дедушка предложил мне вариант работать с ним, помогать создавать скульптуры или пойти к отцу, но я не видел в этом перспективы. Работать на кузовном ремонте у отца — это было слишком тяжело, а у дедушки — скучно и без особой надежды на рост. Я хотел найти что-то свое. Именно тогда я начал задумываться о будущем. Понял, что нужно искать работу на заводе, и, хотя я был не уверен в своих силах, это был мой шанс выйти из тупика.</p>
+        </div>
+
+        <div class="card">
+            <h2>Решение: Завод или все же поработать с семьей?</h2>
+            <p>Я решил, что буду искать работу на заводе, и этот шанс не могу упустить. Два дня стажировки, и я смогу начать работать за деньги. Это было решение, которое казалось мне правильным. Несмотря на сомнения в семье, я чувствовал, что это мой путь.</p>
+        </div>
+
+        <div class="donation-column">
+            <h3>Если хочешь мне помочь финансово — пиши мне в личные сообщения VK или Telegram</h3>
+            <p>Твои пожертвования помогут мне продолжать двигаться вперед, поддерживать меня в трудные моменты и справляться с текущими проблемами. Буду благодарен за любую помощь!</p>
+            <p><a href="https://vk.com/iflacky377" target="_blank">ВКонтакте</a> | <a href="https://t.me/IFlacky3" target="_blank">Телеграмм</a></p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Моя история
+    </footer>
+
+</body>
+</html>
